@@ -243,20 +243,30 @@ input{
     text-align: center;
     background: #008842;
 }
-.all-title a{
+.all-title .both{
     overflow: hidden;
     font: bold 15px/16px "Microsoft YaHei";
     color: #fff;
     display: block;
+    width: 180px;
     height: 16px;
     padding: 11px 0;
+}
+.both:hover .all-list{
+    display: block;
 }
 .all-list{
     display: none;
     position: absolute;
-    height: 462px;
+    top: 38px;
+    left: 0;
+    z-index: 999;
+    width: 180px;
+    height: 502px;
     background: rgba(255, 255, 255, 0.9);
+    clear: both;
 }
+
 .all-list h3 a{
     overflow: hidden;
     position: relative;

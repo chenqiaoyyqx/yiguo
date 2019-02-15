@@ -83,6 +83,9 @@ i,s{
     line-height:30px;
     height:30px;
 }
+.fr a:hover{
+    color: #008842;
+}
 .tit i{
     width:18px;
     height:18px;
@@ -122,6 +125,7 @@ i,s{
 /********************************* header*********************************/
 
 /********************************* section*********************************/
+/*********************************搜索 ***********************/
 section .header-clearFix{
     width:100%;
     height:78px;
@@ -134,6 +138,7 @@ section .header-search{
     margin:0 auto;
     
 }
+
 .logo{
     float: left;
     width: 280px;
@@ -153,6 +158,16 @@ input{
     float:left;
     width: 528px;    
 }
+#list1{
+    position:absolute;
+    top:30px;
+    left: 0;
+    z-index: 998;
+    width: 528px;
+    font-size: 16px;
+    background: #fff;
+}
+
 .search-input{
     color:#999;
     float: left;
@@ -259,16 +274,22 @@ input{
     padding:0;
     width:140px;
 }
-
-.swiper-container{
+.content{
     position: relative;
+    background: #f7f8f8;
+    height: 5471px;
+}
+.swiper-container{
+    position: absolute;
+    left: 0;
+    top: 0;
     width:100%;
     height:500px;
 }
 .thing{
     float:left;
     position: absolute;
-    top:108px;
+    top:0;
     left:74px;
     z-index: 89;
 }
@@ -285,17 +306,59 @@ input{
     display: block;
     height: 16px;
     padding: 11px 0;
+    
 }
 .thing-list{
-    height:385px;
-    background: rgba(255, 255, 255, .85)
+    height:425px;
+    background: rgba(255, 255, 255, .8);
+    position: relative;
+    
+}
+.item-title{
+    transition: 3s;
+}
+.thing-list .none{
+    display: none;
+    position: absolute;
+    top: -38px;
+    left: 180px;
+    z-index: 999;
+    width: 240px;
+    height: 443px;
+    padding: 10px 13px;
+    background:rgba(255, 255, 255, .75);
+    border-left: 1px solid rgb(161, 156, 156);
+}
+.thing-list a:hover .none{
+       display: block;
+}
+.thing-list .none h3{
+      text-decoration: underline;
+      color: #008842;
+      padding: 10px 5px;
+      height:24px;
+      font-size: 20px;
+}
+.thing-list .none span{
+    display: inline-block;
+    width: 50px;
+    padding:10px 10px;
 }
 .thing-list a{
     display:block;
-    width:165px;
-    height:24px;
-    padding:6px 0 5px 15px;
+    width:160px;
+    height:22px;
+    padding:6px 4px 5px 15px;
+    border-top: 1px solid rgba(255, 255, 255, .8);
+    border-bottom: 1px solid rgba(255, 255, 255, .8);
     font: normal 14px/24px "Microsoft YaHei";
+    
+}
+.thing-list a:hover{
+    background: #fff;
+    border-top: 1px solid rgb(161, 156, 156);
+    border-bottom: 1px solid rgb(161, 156, 156);
+    padding:6px 0 5px 19px;
 }
 .thing-list i{
     width:24px;
@@ -355,7 +418,11 @@ input{
     display: inline;
     width: 290px;
     height: 290px;
+   
     margin: 0 0 10px 13px;
+}
+.wrap-ad li:hover{
+    box-shadow:0px 0px 4px #445;
 }
 .wrap-ad img{
     width:290px;
@@ -431,6 +498,7 @@ input{
     width:275px;
     height:463px;
     border:none;
+   
 }
 .floor-main {
     width: 924px;
@@ -440,6 +508,18 @@ input{
     position: relative;
     float: left;
     background: #fff;
+}
+.floor-main img{
+    transition: 0.2s;
+}
+.floor-main img:hover{
+    padding-left:6px;
+}
+.floor-main1 img{
+    transition: 0.2s;
+}
+.floor-main1 img:hover{
+    padding-left:6px;
 }
 .floor-main li{
     float: left;
@@ -606,6 +686,37 @@ input{
     line-height: 40px;
     color:#666;
 }
+.floor-guide em{
+    display: block;
+    position: absolute;
+    left:0;
+    top:0;
+    visibility: hidden;
+    overflow: hidden;
+    width: 24px;
+    height: 29px;
+    padding: 6px 8px;
+    line-height: 14px;
+    font-style: normal;
+    color:#fff;
+}
+.floor-guide i{
+    display:block;
+    width: 10px;
+    height: 0;
+    margin: 0 auto;
+    border-top:1px solid #d7d7d7;
+}
+.floor-guide  a.active{
+    /* visibility: visible; */
+    color: #fff;
+    background-color: #008842;
+}
+.floor-guide  a.active em{
+    /* visibility: visible; */
+    color: #fff;
+    background-color: #008842;
+}
 .floor-guide b{
     display: block;
     width: 40px;
@@ -638,36 +749,6 @@ input{
 }
 .floor9{
     background: url(../img/floor_guide.png) no-repeat -280px 0;
-}
-.floor-guide em{
-    display: block;
-    position: absolute;
-    left:0;
-    top:0;
-    visibility: hidden;
-    overflow: hidden;
-    width: 24px;
-    height: 29px;
-    padding: 6px 8px;
-    line-height: 14px;
-    font-style: normal;
-    color:#fff;
-}
-.floor-guide i{
-    display:block;
-    width: 10px;
-    height: 0;
-    margin: 0 auto;
-    border-top:1px solid #d7d7d7;
-}
-.floor-guide .active em{
-    visibility: visible;
-    color: #fff;
-    background-color: #008842;
-}
-.content{
-    background: #f7f8f8;
-    height: 5471px;
 }
 .footer-service{
     background: #e0e0e0;    
@@ -805,4 +886,8 @@ img{
     line-height: 20px;
     margin: 0px 0px 0px 5px;
     color: #939393;
+}
+.footer a:hover{
+    text-decoration: underline;
+    color: #008842;
 }

@@ -1,6 +1,9 @@
+ // 放大镜; 
     var focus = document.querySelector(".focus");
     var big_wrap = document.querySelector(".wrap-big-magnifier");
     var small_wrap = document.querySelector(".wrap-small-magnifier");
+
+    // console.log(big_wrap);
     var big_bg = big_wrap.children[0];
     var small_bg = small_wrap.children[0];
     var choice_wrap = document.querySelector(".wrap-choice-magnifier");

@@ -1,0 +1,282 @@
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {    margin: 0;    padding: 0;    border: 0;    font-size: 100%;    font: inherit;    vertical-align: baseline;}/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {    display: block;}body {    line-height: 1;}ol, ul {    list-style: none;}blockquote, q {    quotes: none;}blockquote:before, blockquote:after,q:before, q:after {    content: '';    content: none;}table {    border-collapse: collapse;    border-spacing: 0;}
+body,html{
+    background: #f7f8f8;
+    color: #444;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background: #e0e0e0;
+}
+.header{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 15px 0 5px 0;
+    position: relative;
+}
+.header a{
+    display: block;
+    width: 195px;
+    height: 50px;
+    background: url(../img/logo.png) no-repeat;
+}
+.header span{
+    color: #008842;
+    font: 28px/1 Microsoft YaHei;
+    position: absolute;
+    left: 240px;
+    top: 26px;
+}
+section{
+    width: 100%;
+    height: 512px;
+    background: #f7f8f8;
+}
+.s-wrap{
+    width: 100%;
+    height: 482px;
+    background: #fff;
+    margin-bottom: 30px;
+}
+.main{
+    width: 1200px;
+    height: 482px;
+    margin: 0 auto;
+   
+}
+.main-right{
+    float: right;
+    width: 308px;
+    padding: 30px 20px 20px;
+    height: 380px;
+    margin-top: 50px;
+    margin-right: 105px;
+    border: 1px solid #e3e6e0;
+}
+.main-right p{
+    width: 100%;
+    margin-bottom: 20px;
+    font: 12px Arial, "SimSun";
+    color: #878787;
+    position: relative;
+}
+.main-right p b{
+    color: #262626;
+    font: 18px/1 "Microsoft YaHei";
+}
+.main-right p span{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.main-right span a{
+    color: #008842;
+}
+.main-right .a{
+    display: inline-block;
+    width: 40px;
+    height: 38px;
+    position: absolute;
+    left: 1px;
+    top: 1px;
+}
+.main-right .people{
+    background: url(../img/bg_input.png) no-repeat 0 -120px;
+}
+.main-right .key{
+    background: url(../img/bg_input.png) no-repeat 0 -180px;
+}
+.main-right .a2{
+    position: absolute;
+    left: 1px;
+    top: 2px;
+}
+.main-right input{
+    padding-left: 50px;
+    width: 254px;
+    height: 36px;
+    border: 1px solid #c1c1c1;
+    background-color: #fff;
+    vertical-align: middle;
+    font: 14px/38px "Microsoft YaHei";
+}
+.main-right .code{
+    width:100px;
+}
+.main-right .w{
+    width: 60px;
+    height: 39px;
+    background: url(../img/verifycode\ \(1\).jpg) no-repeat;
+    margin-left:-3px; 
+    margin-top: 1px;
+    padding: none;
+    border: none;
+}
+.main-right a{
+    text-decoration: none;
+    color: #878787;
+}
+.main-right a:hover{
+    color: #008842;
+}
+.main-right .check{
+    width: 14px;
+    height: 14px;
+    margin-right: 9px;
+    vertical-align: -1px;
+    margin-left: -1px;
+}
+.main-right .gray{
+    float:right;
+}
+.main-right button{
+    background: #01803e;   
+    width: 306px;
+    height: 50px;
+    text-align: center;
+    border: none;
+}
+.main-right .green{
+    display: inline-block;
+    background: #01803e;   
+    width: 306px;
+    height: 50px;
+    text-align: center;
+    margin-top: -1px;
+    color: #fff;
+    font: 18px/50px "Microsoft YaHei";
+}
+.main-right .green:hover{
+    color: #fff;
+    background: #028d45;
+}
+.main-right .ml{
+    margin-left: 1px;
+}
+.main-right i{
+    display: inline-block;
+    width: 88px;
+    height: 20px;
+    margin-right: 20px;
+}
+.main-right .qq{
+    background: url(../img/bg_login.png) no-repeat -60px -200px;
+}
+.main-right .weibo{
+    background: url(../img/bg_login.png) no-repeat -160px -200px;
+}
+.main-right .ay{
+    background: url(../img/bg_login.png) no-repeat -260px -200px;
+    margin-right: 0;
+    width: 57px;
+}
+.footer{
+    clear: both;
+    width:100%;
+    height: 413px;
+    background: #f7f8f8;
+    position: relative;
+    padding-bottom: 20px;
+    border-top: 1px solid #e0e0e0;
+}
+.footer .wrap{
+    width: 1200px;
+    margin: 50px auto 0;
+}
+.footer dl{
+    display: inline;
+    width: 190px;
+    float: left;
+    margin-left: 50px;
+    
+}
+.footer dl dt{
+    height: 23px;
+    line-height: 23px;
+    font-size: 14px;
+    text-indent: 40px;
+    
+}
+.footer dl dd{
+    border-left: 1px dashed #A8A8A8;
+    padding-left: 20px;
+    height: 110px;
+    min-height: 110px;
+    margin: 15px 0 0 13px;
+}
+.footer dl dd a{
+    color: #575556;
+    line-height: 22px;
+}
+.num1 dt{
+    background: url(../img/footer_icon.png) no-repeat 0 0;
+}
+.num2 dt{   
+    background: url(../img/footer_icon.png) no-repeat  0 -23px;
+}
+.num3 dt{
+    background: url(../img/footer_icon.png) no-repeat  0 -46px;
+}
+.num4 dt{
+    background: url(../img/footer_icon.png) no-repeat  0 -69px;
+}
+.num5 dt{
+    background: url(../img/footer_icon.png) no-repeat  0 -92px;
+}
+.footer .service{
+    clear: both;
+    text-align: center;
+    padding: 60px 0 20px;
+    color: #008842;
+    font-size: 14px;
+}
+.footer .service span{
+    display: inline-block;
+    padding: 0 10px;
+}
+.copy{
+    clear: both;
+    color: #717171;
+    text-align: center;
+    line-height: 22px;
+}
+.copy a{
+    color: #717171;
+}
+.mark a{
+    display: inline-block;
+    position: relative;
+    margin: 0 10px;
+    zoom: 1;
+    vertical-align: middle;
+}
+img{
+    border:none;
+}
+.mark img{
+    height:47px;
+}
+
+.ghs img{
+    height:20px;
+    float: left;
+}
+.ghs span{
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin: 0px 0px 0px 5px;
+    color: #939393;
+}
+.copy p{
+    font-size: 14px;
+}
+.footer a{
+    text-decoration: none;
+    font-size: 12px;
+}
+.footer a:hover{
+    text-decoration: underline;
+    color: #008842;
+}

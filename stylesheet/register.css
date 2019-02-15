@@ -1,0 +1,276 @@
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {    margin: 0;    padding: 0;    border: 0;    font-size: 100%;    font: inherit;    vertical-align: baseline;}/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {    display: block;}body {    line-height: 1;}ol, ul {    list-style: none;}blockquote, q {    quotes: none;}blockquote:before, blockquote:after,q:before, q:after {    content: '';    content: none;}table {    border-collapse: collapse;    border-spacing: 0;}
+body,html{
+    background: #f7f8f8;
+    color: #444;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background: #e0e0e0;
+}
+.header{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 15px 0 5px 0;
+    position: relative;
+}
+.header a{
+    display: block;
+    width: 195px;
+    height: 50px;
+    background: url(../img/logo.png) no-repeat;
+}
+.header span{
+    color: #008842;
+    font: 28px/1 Microsoft YaHei;
+    position: absolute;
+    left: 240px;
+    top: 26px;
+}
+section{
+    width: 100%;
+    height: 764px;
+}
+.register{
+    width: 1200px;
+    height: 664px;
+    margin: 0 auto;
+    border: 1px solid #a5c9b6;
+    border-top: none;
+    margin-top: 30px;
+    background:#fff;
+    padding: 17px 0 50px;
+}
+.right{
+    float: right;
+    margin-right: 36px;
+    font: 14px/1 Microsoft YaHei;
+}
+.right a{
+    color: #ef760a;
+}
+.main{
+    margin-top: 23px;
+}
+.main-left{
+    float: left;
+    /* width: 573px;
+    text-align: right;
+    padding-right: 3px; */
+}
+.main-left p{
+    line-height: 38px;
+    margin-bottom: 29px;
+    font: 14px Arial,"Microsoft YaHei";
+}
+.main-left span{
+    display: inline-block;
+    width: 220px;
+    text-align: right;
+    padding-right: 20px;
+}
+.main-left b{
+    display: inline-block;
+    width: 220px;
+    text-align: right;
+    padding-right: 20px;
+}
+.main-left i{
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    vertical-align: middle;
+    margin-right: 9px;
+}
+.main-left input{
+    margin-right: 20px;
+    width: 290px;
+    height:38px;
+    padding-left: 14px;
+    vertical-align: middle;
+    border: 1px solid #c1c1c1;
+}
+.main-left button{
+    border: none;
+    background: grey;
+    width: 306px;
+    height: 50px;
+    text-align: center;
+}
+.main-left .phone{
+    color: #f60000;
+    background: url(../img/bg_input.png) no-repeat 276px -30px;
+}
+.main-left .mobile i{
+    background: url(../img/bg_login.png) no-repeat -40px -200px;    
+}
+.main-left #pic{
+    padding: 0;
+}
+.main-left .cod b{
+    padding-left:5px; 
+}
+.main-left .cod i{
+    background: url(../img/bg_login.png) no-repeat -20px -200px;    
+}
+.main-left p .hide{
+    display: none;
+}
+.main-left .wid{
+    width: 147px;
+}
+.main-left .w{
+    width: 100px;
+    height: 40px;
+    background: url(../img/verifycode.jpg) no-repeat;
+    margin:0;
+    padding: none;
+    border: none;
+}
+.main-left a{
+    text-decoration: none;
+    color: rgb(0, 136, 66);
+
+}
+.main-left .code{
+    display: inline-block;
+    width: 118px;
+    height: 40px;
+    text-align: center;
+    line-height: 38px;
+    background-color: rgb(247, 247, 247);
+    border: 1px solid rgb(193, 193, 193);
+}
+.main-left .key{
+    background: url(../img/bg_input.png) no-repeat 276px -70px;
+}
+.main-left .check{
+    width: 14px;
+    height: 14px;
+    margin-right: 9px;
+    vertical-align: -1px;
+}
+.main-left .gray{
+    /* background: grey; */
+    display: inline-block;
+    margin-top: -1px;
+    color: rgb(255, 255, 255);
+    font: 18px/50px "Microsoft YaHei";
+}
+.main-right{
+    float: right;
+    width: 330px;
+    height: 340px;
+    padding-top: 50px;
+    border-left: 1px dashed rgb(222, 231, 227);
+}
+
+.footer{
+    clear: both;
+    width:100%;
+    height: 413px;
+    background: #f7f8f8;
+    position: relative;
+    padding-bottom: 20px;
+    border-top: 1px solid #e0e0e0;
+}
+.footer .wrap{
+    width: 1200px;
+    margin: 50px auto 0;
+}
+.footer dl{
+    display: inline;
+    width: 190px;
+    float: left;
+    margin-left: 50px;
+    
+}
+.footer dl dt{
+    height: 23px;
+    line-height: 23px;
+    font-size: 14px;
+    text-indent: 40px;
+    
+}
+.footer dl dd{
+    border-left: 1px dashed #A8A8A8;
+    padding-left: 20px;
+    height: 110px;
+    min-height: 110px;
+    margin: 15px 0 0 13px;
+}
+.footer dl dd a{
+    color: #575556;
+    line-height: 22px;
+}
+.num1 dt{
+    background: url(../img/footer_icon.png) no-repeat 0 0;
+}
+.num2 dt{   
+    background: url(../img/footer_icon.png) no-repeat  0 -23px;
+}
+.num3 dt{
+    background: url(../img/footer_icon.png) no-repeat  0 -46px;
+}
+.num4 dt{
+    background: url(../img/footer_icon.png) no-repeat  0 -69px;
+}
+.num5 dt{
+    background: url(../img/footer_icon.png) no-repeat  0 -92px;
+}
+.footer .service{
+    clear: both;
+    text-align: center;
+    padding: 60px 0 20px;
+    color: #008842;
+    font-size: 14px;
+}
+.footer .service span{
+    display: inline-block;
+    padding: 0 10px;
+}
+.copy{
+    clear: both;
+    color: #717171;
+    text-align: center;
+    line-height: 22px;
+}
+.copy a{
+    color: #717171;
+}
+.mark a{
+    display: inline-block;
+    position: relative;
+    margin: 0 10px;
+    zoom: 1;
+    vertical-align: middle;
+}
+img{
+    border:none;
+}
+.mark img{
+    height:47px;
+}
+
+.ghs img{
+    height:20px;
+    float: left;
+}
+.ghs span{
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin: 0px 0px 0px 5px;
+    color: #939393;
+}
+.copy p{
+    font-size: 14px;
+}
+.footer a{
+    text-decoration: none;
+    font-size: 12px;
+}
+.footer a:hover{
+    text-decoration: underline;
+    color: #008842;
+}
