@@ -120,3 +120,417 @@ i,s{
     background:url(../img/aptitudeicon.png) no-repeat 0px 0px; 
 }
 /********************************* header*********************************/
+/********************************* section*********************************/
+section .header-clearFix{
+    width:100%;
+    height:78px;
+    background:#e0e0e0;
+}
+section .header-search{
+    width:1200px;
+    height:58px;
+    padding: 15px 0 5px 0;
+    margin:0 auto;
+    
+}
+.logo{
+    float: left;
+    width: 280px;
+    margin-right: 10px;
+}
+.logo a{
+    display: block;
+    width:145px;
+    height:50px;
+    background:url(../img/logo.png) no-repeat left top;
+}
+input{
+    vertical-align: middle;
+}
+.search{
+    position: relative;
+    float:left;
+    width: 528px;    
+}
+.search-input{
+    color:#999;
+    float: left;
+    width: 425px;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 10px;
+    border: 1px solid #008842;
+    background: #e0e0e0;
+}
+ .search-btn{
+    float: left;
+    display: block;
+    width: 81px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+    background: #008842;
+}
+.search-keywords{
+    height: 30px;
+    line-height: 30px;
+}
+.search-keywords .green{
+    color: #008842;
+}
+.search-keywords a{
+    display: inline-block;
+    margin-right: 5px;
+    color:#727272;
+}
+.carts{
+    float: right;
+    position: relative;
+}
+.carts-btn{
+    width: 170px;
+    height: 28px;
+    padding: 6px 0;
+    line-height: 28px;
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid #008842;
+    background: #fff;
+    cursor: pointer;
+}
+.carts-btn a{
+    color: #008842;
+}
+.carts-btn .goodsNum{
+    display: inline-block;
+    vertical-align: middle;
+    width: 28px;
+    height: 20px;
+    margin-right: 10px;
+    font-size: 12px;
+    padding: 0;
+    background: url(../img/header-img.png) no-repeat -112px 0;
+}
+.goodsNum b{
+    display: block;
+    width: 24px;
+    line-height: 12px;
+    margin-right: 4px;
+    text-align: center;
+}
+/***************吸顶菜单***************/
+/*****************top*****************/
+.header-nav{
+    position: relative;
+}
+.header-nav .wrap{
+    width:1200px;
+    margin:0 auto;
+}
+.all{
+    position: relative;
+    float: left;
+}
+.all-title{
+    width: 180px;
+    height: 38px;
+    position: relative;
+    text-align: center;
+    background: #008842;
+}
+.all-title .both{
+    overflow: hidden;
+    font: bold 15px/16px "Microsoft YaHei";
+    color: #fff;
+    display: block;
+    width: 180px;
+    height: 16px;
+    padding: 11px 0;
+}
+.both:hover .all-list{
+    display: block;
+}
+.all-list{
+    display: none;
+    position: absolute;
+    top: 38px;
+    left: 0;
+    z-index: 999;
+    width: 180px;
+    height: 502px;
+    background: rgba(255, 255, 255, 0.9);
+    clear: both;
+}
+
+.all-list h3 a{
+    overflow: hidden;
+    position: relative;
+    display: block;
+    width: 165px;
+    height: 24px;
+    padding: 9px 0 9px 15px;
+    font: normal 14px/24px "Microsoft YaHei";
+}
+.all-list h3 i{
+    overflow: hidden;
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+    background: url(../img/nav-icon.png) no-repeat 0px 0px;
+}
+.all-list h3 s{
+    display: none;
+    position: absolute;
+    top: 7px;
+    right: 18px;
+    font-family: Arial;
+    text-decoration: none;
+}
+.all-list .i2 i{
+    background-position: -24px 0;
+}
+.all-list .i3 i{
+    background-position: -48px 0;
+}
+.all-list .i4 i{
+    background-position: -72px 0;
+}
+.all-list .i5 i{
+    background-position: 0 0;
+}
+.all-list .i6 i{
+    background-position: -96px 0;
+}
+.all-list .i7 i{
+    background-position: -120px 0;
+}
+.all-list .i8 i{
+    background-position: -144px 0;
+}
+.all-list .i9 i{
+    background-position: -168px 0;
+}
+.all-list .i10 i{
+    background-position: -192px 0;
+}
+.all-list .i11 i{
+    background-position: -216px 0;
+}
+.all-list .i12 i{
+    background-position: -240px 0;
+}
+.nav-items{
+    overflow: hidden;
+    float: left;
+    width: 1020px;
+    height: 37px;
+    line-height: 37px;
+    border-bottom: 1px solid #008842;
+}
+.nav-items li{
+    float: left;
+    width: 115px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+.list{
+    width: 1200px;
+    margin: 0 auto;
+    height: 800px;
+}
+.list div{
+    position: relative;
+    float: left;
+    width: 290px;
+    margin-top:15px ;
+    margin-right: 6px;
+    background: #fff; 
+}
+.list img{
+    width: 290px;
+    height: 290px;
+}
+.list p{
+    height: 16px;
+    margin-bottom: 10px;
+    line-height: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 10px;
+}
+.list span{
+    display: block;
+    height: 22px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 10px;
+    font-size: 18px;
+    color: #e7380d;
+    font-weight: bold;
+}
+.list button{
+    display: none;
+    background:#008842;
+    position: absolute;
+    bottom: 68px;
+    left:50px;
+    border:none;
+    color: #fff;
+    width: 180px;
+    height: 25px;
+    margin: 0 auto;
+    line-height: 25px;
+    border-radius: 4px; 
+}
+.list div:hover button{
+    display: block;
+}
+/******************footer**************/
+footer{
+    width: 100%;
+    background: #e0e0e0;
+}
+.footer-service{
+    background: #e0e0e0;    
+}
+.footer-service .wrap{
+    width:1200px;
+    margin:0 auto;
+}
+.footer-service li{
+    width:190px;
+    height:42px;
+    margin: 30px 0;
+    float:left;
+    margin-left:55px;
+    padding-left:55px;
+}
+.footer-service li b{
+    display: block;
+    padding-left: 15px;
+    color: #007f4d;
+    font: normal 18px/25px "Microsoft YaHei";
+    border-left: 1px solid #a6a6a6;
+}
+.footer-service li span{
+    display: block;
+    padding-left: 15px;
+    border-left: 1px solid #a6a6a6;
+}
+.s1{
+    background: url(../img/footer_service_icon.png) no-repeat left top;
+}
+.s2{
+    background: url(../img/footer_service_icon.png) no-repeat 0 -42px;
+}
+.s3{
+    background: url(../img/footer_service_icon.png) no-repeat 0 -84px;
+}
+.s4{
+    background: url(../img/footer_service_icon.png) no-repeat 0 -126px;
+}
+.footer{
+    clear: both;
+    width:100%;
+    height: 413px;
+    background: #f7f8f8;
+    position: relative;
+    padding-bottom: 20px;
+    border-top: 1px solid #e0e0e0;
+}
+.footer .wrap{
+    width: 1200px;
+    margin: 50px auto 0;
+}
+.footer dl{
+    display: inline;
+    width: 190px;
+    float: left;
+    margin-left: 50px;
+    
+}
+.footer dl dt{
+    height: 23px;
+    line-height: 23px;
+    font-size: 14px;
+    text-indent: 40px;
+    
+}
+.footer dl dd{
+    border-left: 1px dashed #A8A8A8;
+    padding-left: 20px;
+    height: 110px;
+    min-height: 110px;
+    margin: 15px 0 0 13px;
+}
+.footer dl dd a{
+    color: #575556;
+    line-height: 22px;
+}
+.num1 dt{
+    background: url(../img/footer_icon.png) no-repeat 0 0;
+}
+.num2 dt{   
+    background: url(../img/footer_icon.png) no-repeat  0 -23px;
+}
+.num3 dt{
+    background: url(../img/footer_icon.png) no-repeat  0 -46px;
+}
+.num4 dt{
+    background: url(../img/footer_icon.png) no-repeat  0 -69px;
+}
+.num5 dt{
+    background: url(../img/footer_icon.png) no-repeat  0 -92px;
+}
+.footer .service{
+    clear: both;
+    text-align: center;
+    padding: 60px 0 20px;
+    color: #008842;
+    font-size: 14px;
+}
+.footer .service span{
+    display: inline-block;
+    padding: 0 10px;
+}
+.copy{
+    clear: both;
+    color: #717171;
+    text-align: center;
+    line-height: 22px;
+}
+.copy a{
+    color: #717171;
+}
+.mark a{
+    display: inline-block;
+    position: relative;
+    margin: 0 10px;
+    zoom: 1;
+    vertical-align: middle;
+}
+img{
+    border:none;
+}
+.mark img{
+    height:47px;
+}
+
+.ghs img{
+    height:20px;
+    float: left;
+}
+.ghs span{
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin: 0px 0px 0px 5px;
+    color: #939393;
+}
